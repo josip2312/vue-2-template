@@ -1,0 +1,43 @@
+.btn {
+	display: inline-block;
+	text-decoration: none;
+	border: 0;
+	border-radius: 0.5rem;
+	background-color: var(--accent);
+	padding: 0.8em 1.4em;
+
+	font-size: 1.8rem;
+	line-height: 1.2;
+	letter-spacing: 1px;
+	color: var(--font-secondary);
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+
+	cursor: pointer;
+	transition: opacity 200ms ease-in-out;
+}
+.btn-sec {
+	color: var(--font-primary);
+	border: 2px solid var(--accent);
+}
+.btn-sec:hover {
+	opacity: 0.9;
+}
+.btn:hover {
+	opacity: 0.9;
+}
+
+a {
+	text-decoration: none;
+	color: var(--font-primary);
+}
+
+.container {
+	@media only screen and(max-width:$v-6) {
+		width: 90%;
+	}
+	width: 85%;
+	max-width: 120rem;
+	margin: 0 auto;
+}
